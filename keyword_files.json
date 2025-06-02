@@ -1,0 +1,325 @@
+{
+    "image": {
+        "keywords": [
+            "image",
+            "picture",
+            "photo",
+            "snapshot",
+            "screenshot",
+            "graphic",
+            "illustration",
+            "drawing",
+            "visual",
+            "thumbnail",
+            "png",
+            "jpg",
+            "jpeg",
+            "bmp",
+            "gif",
+            "capture d'écran",
+            "graphique",
+            "dessin",
+            "miniature",
+            "imagen",
+            "foto",
+            "captura de pantalla",
+            "gráfico",
+            "ilustración",
+            "dibujo",
+            "bild",
+            "grafik",
+            "zeichnung",
+            "abbildung",
+            "miniatur",
+            "画像",
+            "写真",
+            "スクリーンショット",
+            "グラフィック",
+            "イラスト",
+            "図",
+            "ビジュアル",
+            "サムネイル",
+            "图像",
+            "照片",
+            "截图",
+            "图形",
+            "插图",
+            "绘图",
+            "图",
+            "缩略图",
+            "изображение",
+            "снимок экрана",
+            "графика",
+            "иллюстрация",
+            "рисунок",
+            "миниатюра",
+            "imagem",
+            "captura de tela",
+            "gráfico",
+            "ilustração",
+            "desenho"
+        ],
+        "extension": [
+            "bmp",
+            "png",
+            "jpg",
+            "jpeg",
+            "gif"
+        ]
+    },
+    "excel": {
+        "keywords": [
+            "xls",
+            "xlsx"
+        ],
+        "extension": [
+            "xls",
+            "xlsx"
+        ]
+    },
+    "table": {
+        "keywords": [
+            "excel",
+            "spreadsheet",
+            "sheet",
+            "csv",
+            "tsv",
+            "worksheet",
+            "feuille",
+            "feuille de calcul",
+            "hoja",
+            "hoja de cálculo",
+            "arbeitsblatt",
+            "エクセル",
+            "スプレッドシート",
+            "シート",
+            "ワークシート",
+            "電子表格",
+            "工作表",
+            "лист",
+            "planilha",
+            "folha"
+        ],
+        "extension": [
+            "xls",
+            "xlsx",
+            "csv",
+            "tsv"
+        ]
+    },
+    "table_clear": {
+        "keywords": [
+            "csv",
+            "tsv"
+        ],
+        "extension": [
+            "csv",
+            "tsv"
+        ]
+    },
+    "xml": {
+        "keywords": [
+            "xml"
+        ],
+        "extension": [
+            "xml"
+        ]
+    },
+    "web": {
+        "keywords": [
+            "html",
+            "htm",
+            "web document"
+        ],
+        "extension": [
+            "html",
+            "htm"
+        ]
+    },
+    "log": {
+        "keywords": [
+            "log",
+            "logs",
+            "logging",
+            "record",
+            "trace",
+            "debug",
+            "output",
+            "journal",
+            "erreur",
+            "sortie",
+            "registro",
+            "traza",
+            "salida",
+            "protokoll",
+            "fehler",
+            "ausgabe",
+            "prüfung",
+            "ログ",
+            "記録",
+            "トレース",
+            "デバッグ",
+            "出力",
+            "日志",
+            "记录",
+            "追踪",
+            "调试",
+            "输出",
+            "журнал",
+            "запись",
+            "трассировка",
+            "отладка",
+            "вывод",
+            "rastreamento"
+        ],
+        "extension": [
+            "log"
+        ]
+    },
+    "word": {
+        "keywords": [
+            "docx",
+            "word"
+        ],
+        "extension": [
+            "doc",
+            "docx"
+        ]
+    },
+    "rst": {
+        "keywords": [
+            "rst",
+            "text document"
+        ],
+        "extension": [
+            "rst"
+        ]
+    },
+    "txt": {
+        "keywords": [
+            "txt",
+            "text document",
+            "log",
+            "logs"
+        ],
+        "extension": [
+            "txt"
+        ]
+    },
+    "text": {
+        "keywords": [
+            "report",
+            "paper",
+            "note",
+            "record",
+            "draft",
+            "article",
+            "rapport",
+            "brouillon",
+            "papier",
+            "informe",
+            "nota",
+            "borrador",
+            "artículo",
+            "papel",
+            "bericht",
+            "notiz",
+            "entwurf",
+            "artikel",
+            "レポート",
+            "ノート",
+            "下書き",
+            "記事",
+            "用紙",
+            "报告",
+            "笔记",
+            "草稿",
+            "文章",
+            "纸张",
+            "отчет",
+            "заметка",
+            "черновик",
+            "статья",
+            "бумага",
+            "relatório",
+            "rascunho"
+        ],
+        "extension": [
+            "doc",
+            "docx",
+            "txt",
+            "rst",
+            "pdf"
+        ]
+    },
+    "pdf": {
+        "keywords": [
+            "pdf",
+            "pdfs"
+        ],
+        "extension": [
+            "pdf"
+        ]
+    },
+    "email": {
+        "keywords": [
+            "msg",
+            "eml",
+            "email",
+            "mail",
+            "outlook",
+            "thread",
+            "conversation",
+            "communication",
+            "correspondence",
+            "reply",
+            "courriel",
+            "message",
+            "fil",
+            "répondre",
+            "correo",
+            "mensaje",
+            "hilo",
+            "conversación",
+            "comunicación",
+            "correspondencia",
+            "responder",
+            "nachricht",
+            "konversation",
+            "kommunikation",
+            "korrespondenz",
+            "antworten",
+            "メール",
+            "メッセージ",
+            "会話",
+            "通信",
+            "スレッド",
+            "返信",
+            "アウトルック",
+            "电子邮件",
+            "邮件",
+            "消息",
+            "对话",
+            "往来",
+            "回复",
+            "线程",
+            "展信",
+            "почта",
+            "емейл",
+            "сообщение",
+            "переписка",
+            "коммуникация",
+            "ответ",
+            "тема",
+            "обсуждение",
+            "mensagem",
+            "correio",
+            "conversa",
+            "correspondência",
+            "tópico"
+        ],
+        "extension": [
+            "msg"
+        ]
+    }
+}
