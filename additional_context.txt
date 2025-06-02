@@ -1,0 +1,20 @@
+# Relevant Case Information:
+
+## Case Details:
+${case_details}
+
+
+## Comments:
+${comments}
+
+
+## Attached Document:
+${attached_documents}
+
+
+## Today's date:
+${date}
+
+
+## User asking:
+${user_trigram}
