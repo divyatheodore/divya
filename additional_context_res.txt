@@ -1,0 +1,16 @@
+# Relevant Infrigement Information:
+
+## Infrigement Hit Details:
+${inf_details}
+
+
+## Known Crack Method for ${commercial_release_name}:
+${crack}
+
+
+## Today's date:
+${date}
+
+
+## User asking:
+${user_trigram}

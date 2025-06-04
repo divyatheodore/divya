@@ -1,0 +1,654 @@
+{
+    "Main": {
+        "infId": {
+            "translation": "infringement_ID",
+            "description": "identification number of the infringement"
+        },
+        "infNb": {
+            "translation": "infringement_number",
+            "description": "Number of infringement"
+        },
+        "infType": {
+            "translation": "infringement_type",
+            "description": "Type of infringement (Direct or Indirect)"
+        },
+        "domainName": {
+            "translation": "domain_name",
+            "description": "The network domain of the infringing machine"
+        },
+        "emailDomain": {
+            "translation": "email_domain",
+            "description": "Domain of the email address that was captured"
+        },
+        "product": {
+            "translation": "product_name",
+            "description": "Product name that have been infringed"
+        },
+        "commercialReleaseName": {
+            "translation": "commercial_release_name",
+            "description": "Commercial Release Name of the infringed software"
+        },
+        "release": {
+            "translation": "release",
+            "description": "Release number of the product that have been infringed"
+        },
+        "modules": {
+            "translation": "modules",
+            "description": "List of the modules of the product that have been infringed"
+        },
+        "brandProduct": {
+            "translation": "brand_product",
+            "description": "Brand and Product name that have been infringed"
+        },
+        "regkey": {
+            "translation": "regkey_serial_number",
+            "description": "Serial Number of the product"
+        },
+        "regkeyAccountName": {
+            "translation": "regkey_account_name",
+            "description": "Name of the account that possess the product (with the serial number)"
+        },
+        "regkeyRegistrationDate": {
+            "translation": "regkey_registration_date",
+            "description": "Registration date of the product serial number"
+        },
+        "regkeySeatId": {
+            "translation": "regkey_seat_ID",
+            "description": "ID of the seat that own the product serial number"
+        },
+        "regkeyAddress": {
+            "translation": "regkey_address",
+            "description": "The address associated with customer account that the detected SOLIDWORKS serial number belongs to"
+        },
+        "regkeyProduct": {
+            "translation": "regkey_product",
+            "description": "The product associated with the detected SOLIDWORKS serial number"
+        },
+        "regkeyEntitlementEndDate": {
+            "translation": "regkey_entitlement_end_date",
+            "description": "The end of support date for the product associated with the detected SOLIDWORKS serial number"
+        },
+        "regkeyFetchSuccess": {
+            "translation": "regkey_fetch_success",
+            "description": "Whether or not the SOLIDWORKS serial number lookup returned data for the detected SOLIDWORKS serial number"
+        },
+        "licenseInformation": {
+            "translation": "license_info",
+            "description": "Informations about the license"
+        },
+        "licensedTo": {
+            "translation": "licensed_to",
+            "description": "Organization that orginaly bought the license"
+        },
+        "pirateLicenseAuthor": {
+            "translation": "pirate_license_author",
+            "description": "Author of the pirated license"
+        },
+        "licenseExpiryDate": {
+            "translation": "license_expiry_date",
+            "description": "Expiration date of the license"
+        },
+        "licenseModified": {
+            "translation": "license_modified",
+            "description": "Last modification date of the detected license file"
+        },
+        "licenseType": {
+            "translation": "license_type",
+            "description": "Name of the license type, Reported by the PHT"
+        },
+        "licenseVendor": {
+            "translation": "license_vendor",
+            "description": "The contents of the \"Vendor\" field in the detected license file"
+        },
+        "licenseId": {
+            "translation": "license_ID",
+            "description": "Unique identifier for a set of license keys"
+        },
+        "licenseVersion": {
+            "translation": "license_Version",
+            "description": "Version of the license, , Reported by the PHT"
+        },
+        "serverId": {
+            "translation": "server_ID",
+            "description": "The DSLS Target ID of the DSLS Server."
+        },
+        "tid": {
+            "translation": "known_target_ID",
+            "description": "Boolean, Known DSLS Target ID"
+        },
+        "fileName": {
+            "translation": "file_name",
+            "description": "The name of the file that was detected as tampered, Reported by the PHT"
+        },
+        "fileDate": {
+            "translation": "file_date",
+            "description": "The creation date of the file detected as tampered, Reported by the PHT"
+        },
+        "triggerInfo": {
+            "translation": "trigger_info",
+            "description": "Informations why the hit has been triggered"
+        },
+        "serialBlackListed": {
+            "translation": "blacklisted_serial_number",
+            "description": "Boolean if the Serial Number is blackListed"
+        },
+        "infDate": {
+            "translation": "infringement_date",
+            "description": "Date and time of the infringement in universal coordinated time (UTC)"
+        },
+        "timezone": {
+            "translation": "timezone",
+            "description": "Timezone reported by the Operating System of the infringing machine"
+        },
+        "localTime": {
+            "translation": "local_time",
+            "description": "The likely date and time that the infringement occurred, adjusted according the timezone reported by the infringing machine"
+        },
+        "day": {
+            "translation": "day",
+            "description": "The day of the week when the infringement occurred (according to the suggested local time)"
+        },
+        "countryName": {
+            "translation": "country_name",
+            "description": "Country Name identified either by IP geolocatiob (MaxMind) or Wi-Fi geolocation (Skyhook)"
+        },
+        "countryCode": {
+            "translation": "contry_code",
+            "description": "Country Code"
+        },
+        "locale": {
+            "translation": "keyboard_language",
+            "description": "Keyboard Language Code (derived from the Windows locale codes)"
+        },
+        "cityName": {
+            "translation": "city_name",
+            "description": "City Name that have been found by enrichment with MaxMind or Skyhook"
+        },
+        "state": {
+            "translation": "state",
+            "description": "State name"
+        },
+        "gpsPoint": {
+            "translation": "GPS_point",
+            "description": "GPC Point where the infringement occured"
+        },
+        "geolocationSource": {
+            "translation": "geolocation_source",
+            "description": "Source of the geolocation"
+        },
+        "activeWifi": {
+            "translation": "SSID",
+            "description": "The name of the Active Wi-Fi access point/hotspot"
+        },
+        "wifi": {
+            "translation": "WIFI_geolocalised",
+            "description": "Boolean, If WIFI geolocated"
+        },
+        "wifiAccuracy": {
+            "translation": "WIFI_accuracy",
+            "description": "Accuracy of the WIFI geolocalisation in meters"
+        },
+        "edu": {
+            "translation": "educational_organization",
+            "description": "If the organization is educational, false is not definitive"
+        },
+        "eduUnivs": {
+            "translation": "edu_univs",
+            "description": "The name of the educational institute, displayed after an analysis of the captured domain name(s)"
+        },
+        "registeredOrganisation": {
+            "translation": "registered_organisation",
+            "description": "The contents of the Windows registry field 'Registered Organization'"
+        },
+        "proxyType": {
+            "translation": "proxy_type",
+            "description": "Maxmind, has determined that the IP address belongs to an anonymization network like ExpressVPN, NordVPN and others."
+        },
+        "anon": {
+            "translation": "is_anonymous",
+            "description": "Boolean, anonymous VPN usage"
+        },
+        "egressIp": {
+            "translation": "egress_IP",
+            "description": "The public IP address that was being used at the time of the infringement to connect to the Internet by the machine using cracked 3DS software. Reported by the PHT"
+        },
+        "egressIpPort": {
+            "translation": "egress_IP_port",
+            "description": "The public IP address Port number that was being used at the time of the infringement to connect to the Internet by the machine using cracked 3DS software. Reported by the PHT"
+        },
+        "egressDn": {
+            "translation": "egress_DNS",
+            "description": "A reverse DNS lookup of the IP address, performed after the reception of the infringement"
+        },
+        "shodan": {
+            "translation": "shodan",
+            "description": "Boolean, If Shodan match : Shodan is a search engine for internet-connected devices. It lets users find specific types of computers connected to the Internet using a variety of filters, including location, IP, and operating system, making it easier to attribute an IP address to an organization."
+        },
+        "shodanHosts": {
+            "translation": "shodan_hosts",
+            "description": "List of hostnames (DNS Names) found by Shodan"
+        },
+        "shodanPortModule": {
+            "translation": "shodan_port",
+            "description": "Dict of open port of the infringing host found by Shodan"
+        },
+        "cb": {
+            "translation": "clearbit",
+            "description": "Boolean, If Clearbit match: It provides an API service which transforms anonymous website traffic (IP addresses) into full company profiles."
+        },
+        "dhcpServer": {
+            "translation": "DHCP_server",
+            "description": "IP Address of the DHCP Server of the infringing machine, Reported by the PHT"
+        },
+        "dhcpIp": {
+            "translation": "DHCP_IP",
+            "description": "IP Address of the infringing machine on the DHCP Server, Reported by the PHT"
+        },
+        "operatingSystem": {
+            "translation": "operating_system",
+            "description": "Operating System of the infringing machine"
+        },
+        "macVendors": {
+            "translation": "MAC_vendors",
+            "description": "List of MAC addresses with the corresponding vendors of the the infringing machine, Reported by the PHT"
+        },
+        "machineOid": {
+            "translation": "machine_OS_ID",
+            "description": "Machine Operating System ID"
+        },
+        "machineBid": {
+            "translation": "machine_BIOS_ID",
+            "description": "Machine BIOS ID"
+        },
+        "machineHid": {
+            "translation": "machine_HD_ID",
+            "description": "Machine Hard Disk ID"
+        },
+        "mid": {
+            "translation": "machine_ID",
+            "description": "This is a hashed value based on a combination of the Computer ID, System/BIOS ID and Hard Disk ID."
+        },
+        "vM": {
+            "translation": "virtual_machine",
+            "description": "Will be either True = \"Yes\" or False = \"No\", depending on whether or not a VM was detected as being in use. Note that \"No\", is not definitive, but \"Yes\" is. "
+        },
+        "machineInfo": {
+            "translation": "machine_info",
+            "description": "More detailed information retalted to the infringing machine. Can partly be retrieved by typing \"wmic csproduct get name\" at the command prompt., Reported by the PHT"
+        },
+        "cpus": {
+            "translation": "CPU_number",
+            "description": "The number of physical CPUs. This can be obtained by typing \"wmic computersystem get NumberOfProcessors\" at the command prompt"
+        },
+        "usedCpus": {
+            "translation": "used_CPU_number",
+            "description": "The number of used physical CPUs."
+        },
+        "threads": {
+            "translation": "threads_number",
+            "description": "The number of logical processor cores. This can be obtained by typing \"wmic cpu get NumberOfLogicalProcessors\" at the command prompt."
+        },
+        "machineThreads": {
+            "translation": "threads_number",
+            "description": "The number of logical processor cores. This can be obtained by typing \"wmic cpu get NumberOfLogicalProcessors\" at the command prompt."
+        },
+        "machineMemory": {
+            "translation": "machine_memory",
+            "description": "The amount of RAM on the infringing machine. This can be obtained by typing \"wmic memorychip get capacity\" at the command prompt, summing the returned byte values and converting them to gigabytes."
+        },
+        "reasonDetectExpect": {
+            "translation": "original_hash_value",
+            "description": "Original hash value of the product license, Reported by the PHT"
+        },
+        "reasonDetectActual": {
+            "translation": "detected_hash_value",
+            "description": "Detected hash value of the product license, Reported by the PHT"
+        },
+        "reasonDetectPe": {
+            "translation": "tampered_file_name",
+            "description": "Name of the file that have been Tampered in the infringing machine, Reported by the PHT"
+        },
+        "reasonTamper": {
+            "translation": "tamper_stamp",
+            "description": "Agregation of different infromation about the infringment machine and product to create a stamp"
+        },
+        "keyWord": {
+            "translation": "keyword",
+            "description": "Keyword of the infrigment, the keyword added has a potential link to an infringing entity and may provide a starting point for an investigation, keywords are generated with infrigement details. Keywords do not prove unauthorized use or real infringement."
+        },
+        "email": {
+            "translation": "user_email",
+            "description": "Email used in the product, Reported by the PHT"
+        },
+        "otherEmailsList": {
+            "translation": "other_emails_list",
+            "description": "Other emails detected in the infringement"
+        },
+        "envUser": {
+            "translation": "username_1",
+            "description": "User name on the infringing machine, Reported by the PHT"
+        },
+        "userName": {
+            "translation": "username_2",
+            "description": "User name on the infringing machine, more relevant than username_1, Reported by the PHT"
+        },
+        "envHost": {
+            "translation": "hostname_1",
+            "description": "Name of the infringing machine host, Reported by the PHT"
+        },
+        "hostName": {
+            "translation": "hostname_2",
+            "description": "Name of the infringing machine host, more relevant than hostname_1, Reported by the PHT"
+        },
+        "envIp": {
+            "translation": "local_IP",
+            "description": "List of IP Addresses of the infringing machine on the local network, Reported by the PHT"
+        },
+        "stringEnvIp": {
+            "translation": "string_local_IP",
+            "description": "String containing all the local IP Addresses"
+        },
+        "dnsIp": {
+            "translation": "DNS_IP",
+            "description": "IP Address of the DNS server, Reported by the PHT"
+        },
+        "dhcpServerMac": {
+            "translation": "DHCP_server_MAC",
+            "description": "MAC Address of the DHCP Server, Reported by the PHT"
+        },
+        "relevancy": {
+            "translation": "relevancy",
+            "description": "Relevancies are used to separate hits which are likely to be directly actionable from those which will probably not help in the initial identification of the source of piracy (R0, R1 and R2), Do not prove unauthorized use. "
+        },
+        "mkt": {
+            "translation": "marketing_database",
+            "description": "Boolean, IP addresses that appear in the 3DS Marketing database are matched with infringements to provide a potential investigation target. The Marketing database records the public IP addresses of users that visit 3DS sites and submit a form, (for example, to request more detailed product information or to be recontacted for a quote). In the event of a match, a new keyword is added to the matching infringement in the format MKT_COMPANY_NAME."
+        },
+        "gateway": {
+            "translation": "gateway",
+            "description": "Gateway technology that has sent the infringment hit"
+        },
+        "gatewayIp": {
+            "translation": "gateway_IP",
+            "description": "The local IP address of the router the infringing machine was connected to, Reported by the PHT"
+        },
+        "gatewayMac": {
+            "translation": "gateway_MAC",
+            "description": "MAC address of the router the infringing machine was connected to, Reported by the PHT"
+        },
+        "swxId": {
+            "translation": "solidworks",
+            "description": "SolidWorks ID Email Domain"
+        },
+        "checkSum": {
+            "translation": "check_sum",
+            "description": "The checksum (hash, either MD5 or SHA-256) of the file detected as tampered"
+        },
+        "trustedStorage": {
+            "translation": "trusted_storage",
+            "description": "The contents of the Trusted Storage string in the license file (SOLIDWORKS only). A string ending in F2C7 indicates a cracked license file"
+        },
+        "hostId": {
+            "translation": "host_ID",
+            "description": "The hostname of the infringing machine. "
+        },
+        "hostTargetId": {
+            "translation": "host_target_ID",
+            "description": "The DSLS Target ID of the infringing machine."
+        },
+        "serverTargetId": {
+            "translation": "server_target_ID",
+            "description": "The DSLS Target ID of the DSLS Server. "
+        },
+        "numSolvers": {
+            "translation": "num_solvers",
+            "description": "The number of available solver tokens (CST only). A high number indicates the product is cracked, even the largest customers rarely have more than 10 solver tokens"
+        },
+        "falsePositive": {
+            "translation": "false_positive",
+            "description": "Boolean, False Positive rules are determined after the relevant R&D Team has confirmed that there may be scenarios where the phone-home mechanism is triggered that are not the result of a wilful intent to crack a 3DS product."
+        },
+        "falsePositiveGroup": {
+            "translation": "false_positive_group",
+            "description": "False Posite group number"
+        },
+        "xflowFeaturesElements": {
+            "translation": "xflow_features_elements",
+            "description": "The number elements (i.e. a discrete unit of space into which the computational domain is divided for analysis) in the simulation. Small-scale simulations range from 0,000 to 100,000 elements, moderate-scale simulations nvolve around 500,000 to a few million elements, Large-scale simulations can involve 100 million elements or more"
+        },
+        "xflowFeaturesExe": {
+            "translation": "xflow_features_exe",
+            "description": "The XFlow exectuable used - this will be one of XFlow.exe (the GUI), generateDomain3d.exe (set up the data to be processed by the solvers), engine-3d.exe, engine-3d-t.exe, engine-3d-mpi.exe, engine-3d-mfs.exe, engine-3d-inc.exe, engine-3d-pf-mpi.exe, engine-3d-vof.exe, engine-3d-mfs-mpi.exe, engine-3d-s.exe, engine-3d-gpu.exe"
+        },
+        "xflowFeaturesGpus": {
+            "translation": "xflow_features_GPU",
+            "description": "number of GPUs used to run the simulation, only appears if the exectuable used is engine-3d-gpu.exe"
+        },
+        "xflowFeaturesType": {
+            "translation": "xflow_features_type",
+            "description": "Either \"GUI\" (if using Xflow.exe) or \"Solver\" if running one of the solver products. generateDomain3d.exe does not have a \"type\""
+        },
+        "sam": {
+            "translation": "solidworks_activation_manager_match",
+            "description": "Boolean, If SOLIDWORKS Activation Manager match, contains records of all SOLIDWORKS product activations, whether sucessful or unsuccessful. During each activation attempt, data such as the MAC addresses and public IP address of the machine making the activation attempt is recorded. SAM MATCHES DO NOT PROVE UNAUTHORIZED USE."
+        },
+        "rdo": {
+            "translation": "revulytics_data_optimizer",
+            "description": "Boolean, Use of Revulytics Data Optimizer, a tool focused on enabling to gather actionable insights while ensuring data quality"
+        },
+        "sn": {
+            "translation": "sn",
+            "description": "Boolean. Whether or not the infringement contains a recognised SOLIDWORKS Serial number"
+        },
+        "swc": {
+            "translation": "swc",
+            "description": "Boolean. Whether or not the infringement contains an enrichment from the SOLIDWORKS Certification database"
+        },
+        "workbenches": {
+            "translation": "workbenches",
+            "description": "List of V5 workbenches based on an analysis of the product trigrams in Tamper Specifics"
+        },
+        "stringWorkbenches": {
+            "translation": "string_workbenches",
+            "description": "The names of the V5 workbenches, based on an analysis of the product trigrams in Tamper Specifics"
+        },
+        "other": {
+            "translation": "other",
+            "description": "The full Tamper Specifics string"
+        },
+        "flag": {
+            "translation": "flag",
+            "description": "Can be : - Educational : if the organization detected is an Academic institution -False Positive : If the infringement hit is false positive -To be confirmed : Not sure if it either a False Positive hit or a True hit -Null: likely an unauthorized use"
+        }
+    },
+    "Machine_info": {
+        "applicationInstallationDate": {
+            "translation": "application_installation_date",
+            "description": "Date of the installation of the application"
+        },
+        "cpuModel": {
+            "translation": "CPU_model",
+            "description": "Model of the CPU used"
+        },
+        "localMacAddress": {
+            "translation": "local_MAC_address",
+            "description": "Local MAC address of the infringing machine"
+        },
+        "machineThreads": {
+            "translation": "threads_number",
+            "description": "The number of logical processor cores. This can be obtained by typing \"wmic cpu get NumberOfLogicalProcessors\" at the command prompt."
+        },
+        "machineMemory": {
+            "translation": "machine_memory",
+            "description": "The amount of RAM on the infringing machine. This can be obtained by typing \"wmic memorychip get capacity\" at the command prompt, summing the returned byte values and converting them to gigabytes."
+        },
+        "currentConnections": {
+            "translation": "current_connections",
+            "description": "Optional PHT field used to store product information. In most cases it will always be 1 (one infringement sent per session)"
+        },
+        "maxCurrentConnections": {
+            "translation": "max_current_connections",
+            "description": "Optional PHT field used to store product information. In most cases it will always be 1 (one infringement sent per session)"
+        },
+        "osDetected": {
+            "translation": "operating_system",
+            "description": "Operating System of the infringing machine"
+        },
+        "piracyLicenseInformation": {
+            "translation": "piracy_license_info",
+            "description": "Informations about the pirated license"
+        },
+        "sentFrom": {
+            "translation": "sent_from",
+            "description": "Software that transmitted the data, Infringement=Indirect"
+        },
+        "custom5": {
+            "translation": "custom_info",
+            "description": "Custom information retrieved"
+        }
+    },
+    "MaxMind_info": {
+        "state": {
+            "translation": "state",
+            "description": "State name"
+        },
+        "countryCode": {
+            "translation": "country_code",
+            "description": "Country Code"
+        },
+        "maxMindCountryName": {
+            "translation": "MaxMind_country_name",
+            "description": "Country name from MaxMind (MaxMind format)"
+        },
+        "cityName": {
+            "translation": "city_name",
+            "description": "City Name"
+        },
+        "timezone": {
+            "translation": "timezone_MaxMind",
+            "description": "Timezone from MaxMind"
+        },
+        "countryName": {
+            "translation": "country_name",
+            "description": "Country Name"
+        }
+    },
+    "WHOIS_info": {
+        "inetNum": {
+            "translation": "inetNum",
+            "description": "The range of IP address space."
+        },
+        "ipFrom": {
+            "translation": "IP_from_number",
+            "description": "IP source ID number"
+        },
+        "ipTo": {
+            "translation": "IP_to_number",
+            "description": "IP recipient ID number"
+        },
+        "netName": {
+            "translation": "network_name",
+            "description": "Name of the network"
+        },
+        "blockSize": {
+            "translation": "block_size",
+            "description": "Blocks in subnetting is a set of IP addresses used by a network. These blocks usually contain a number of addresses that are a power of two. The number of addresses in a block is called the block size."
+        },
+        "description": {
+            "translation": "description",
+            "description": "description"
+        },
+        "countryCode": {
+            "translation": "contry_code",
+            "description": "Country Code"
+        },
+        "cityName": {
+            "translation": "city_name",
+            "description": "City Name"
+        },
+        "address": {
+            "translation": "address",
+            "description": "Address of the infringing organization"
+        }
+    },
+    "ClearBit_info": {
+        "ip": {
+            "translation": "ip",
+            "description": "IP Address match with ClearBit database"
+        },
+        "name": {
+            "translation": "company_name",
+            "description": "Company name"
+        },
+        "legalName": {
+            "translation": "company_legalName",
+            "description": "Company legal name"
+        },
+        "industry": {
+            "translation": "company_industry_domain",
+            "description": "Company industry domain"
+        },
+        "subIndustry": {
+            "translation": "company_industry_subdomain",
+            "description": "Company industry sub domain"
+        },
+        "industryGroup": {
+            "translation": "company_industry_group",
+            "description": "Company industry group"
+        },
+        "sector": {
+            "translation": "company_sector",
+            "description": "Company sector"
+        },
+        "description": {
+            "translation": "company_description",
+            "description": "Company description"
+        },
+        "companyDomain": {
+            "translation": "company_domain",
+            "description": "Company Domain"
+        },
+        "domainAliases": {
+            "translation": "company_web_domain_name",
+            "description": "Web domain name of the company"
+        },
+        "geoCity": {
+            "translation": "company_city",
+            "description": "Company city"
+        },
+        "geoCountryCode": {
+            "translation": "company_country_code",
+            "description": "Company country code"
+        },
+        "geoGpsPoint": {
+            "translation": "company_GPS_point",
+            "description": "Company GPS coordinates"
+        },
+        "geoLocation": {
+            "translation": "company_address",
+            "description": "Company address"
+        },
+        "domain": {
+            "translation": "company_website",
+            "description": "Company website"
+        }
+    },
+    "SOLIDWORKS_Activation_Manager_matches": {
+        "description" : "SAM: SOLIDWORKS Activation Manager, List of SOLIDWORKS Activation Manager matches, SAM matches do not prove unauthorized use or real infringement."
+    },
+    "Marketing_Database_matches": {
+        "description" : "MKT: Marketing Database, IP addresses that appear in the 3DS Marketing database are matched with infringements to provide a potential investigation target, MKT matches do not prove unauthorized use."
+    },
+    "SOLIDWORKS_Certification_matches": {
+        "description" : "SWC: SOLIDWORKS Certification, Infringing IP addresses are cross-referenced with IP addresses from connections made to the SOLIDWORKS Certification platform, SWC matches do not prove unauthorized use."
+    },
+    "TID_DSX_Client_matches": {
+        "description" : "TID: Target IDs DSX Client matches, Host Target IDs and MAC addresses are matched to Target IDs that appear on company sites in DSx.Client Care & Order. TID matches do not prove unauthorized use."
+    },
+    "ClearBit_matches": {
+        "description" : "CB: ClearBit matches, ClearBit provides an API service which transforms anonymous website traffic (IP addresses) into full company profiles. ClearBit matches do not prove unauthorized use."
+    },
+    "shodanHosts": {
+        "description" : "The list of domain names retrieved by Shodan"
+    }
+}
